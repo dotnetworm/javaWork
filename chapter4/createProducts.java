@@ -1,5 +1,5 @@
+import java.io.IOException;
 import java.util.Scanner;
-import java.io.*;
 class createProducts {
 	public static void main(String[] args) throws IOException, InterruptedException {
 	greetings newGreet = new greetings();
@@ -17,9 +17,11 @@ class createProducts {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Product Name");
 		productName = input.nextLine();
+		input.close();
 		if (productName == "") {
 			break;
 		}
+		
 
       System.out.println("You entered " + productName);
 		///while(flag){
