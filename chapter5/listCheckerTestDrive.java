@@ -8,5 +8,9 @@ public class listCheckerTestDrive {
 
         checkMe.setUpperLimit(limitable);
         checkMe.countUp();
+
+
+        checkMe.setRandom();
+        checkMe.countRandom();
     }
 }
