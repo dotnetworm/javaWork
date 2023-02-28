@@ -35,4 +35,5 @@ public class weatherData {
     public String getTime(){
         return time;
     }
+
 }
