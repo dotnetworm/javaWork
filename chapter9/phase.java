@@ -1,0 +1,1 @@
+public enum phase {LIQUID, GAS, TWOPHASE};
